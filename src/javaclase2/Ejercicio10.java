@@ -15,12 +15,12 @@ final float PI = 3.141592f;
 Scanner sc=new Scanner (System.in);
     System.out.println("Ingrese el radio: ");
     radius = sc.nextFloat();
-    if (radius<0){
-        System.out.println("ERROR");
-    }
-    else {
+    if (radius>=0){
         volume = (4*PI*(Math.pow(radius,3)))/3;
     System.out.println("El volumen es de: " + volume);
+        }
+    else {
+        System.out.println("ERROR");
     }
 }
 }
