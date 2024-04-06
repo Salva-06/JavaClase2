@@ -10,6 +10,7 @@ import java.util.Scanner;
  */
 public class Ejercicio9 {
 public static void main(String[] arg){
+    // Codigo para saber si un numero es par o impar//
 int n;
 Scanner sc = new Scanner (System.in);
     System.out.println("Ingrese un numero: ");
