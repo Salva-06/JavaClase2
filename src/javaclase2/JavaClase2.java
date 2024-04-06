@@ -15,7 +15,7 @@ public class JavaClase2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    //Problema 1//0
+    //Problema 1//
     double n, numerador, denominador, result;
     Scanner sc=new Scanner (System.in);
     System.out.println("Ingrese el valor de X: ");
